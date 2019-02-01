@@ -21,6 +21,19 @@
 				};
 			}
 
+			componentDidMount() {
+				const count = localStorage.getItem("Count");
+				if (count != null) {
+					this.setState({
+						count: parseInt(count)
+					});
+				}
+
+				window.addEventListener("beforeunload", ()=> {
+					localStorage.setItem("Count", this.state.count);
+				})
+			}
+
             render() {
                 return (
                     <div>
