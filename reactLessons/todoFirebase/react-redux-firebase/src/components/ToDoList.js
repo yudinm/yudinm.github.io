@@ -18,9 +18,9 @@ class ToDoList extends Component {
 
   handleFormSubmit = event => {
     const { addFormValue } = this.state;
-    const { addToDo } = this.props;
+    const { addToDo, auth } = this.props;
     event.preventDefault();
-    addToDo({ title: addFormValue });
+    addToDo({ title: addFormValue }, auth.uid);
     this.setState({ addFormValue: "" });
   };
 
@@ -66,7 +66,8 @@ class ToDoList extends Component {
   }
 
   componentWillMount() {
-    this.props.fetchToDos();
+    const { auth } = this.props;
+    this.props.fetchToDos(auth.uid);
   }
 
   render() {
@@ -78,7 +79,12 @@ class ToDoList extends Component {
           {this.renderToDos()}
         </Row>
         <div className="fixed-action-btn">
-          <Button floating large teal darken-4
+        <Button
+            onClick={this.props.signOut}
+            id="sign-out-button"
+            className="btn-floating btn-large teal darken-4"
+          ></Button>
+          <Button floating large="true" teal="true" darken-4="true"
             onClick={() => this.setState({ addFormVisible: !addFormVisible })}
           >
             {addFormVisible ? (
@@ -93,10 +99,12 @@ class ToDoList extends Component {
   }
 }
 
-const mapStateToProps = ({ data }) => {
-  return {
-    data
+const mapStateToProps = ({ data, auth }) => {
+    return {
+      data,
+      auth
+    };
   };
-};
+  
 
 export default connect(mapStateToProps, actions)(ToDoList);
