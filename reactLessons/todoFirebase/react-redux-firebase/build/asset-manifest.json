@@ -1,13 +1,13 @@
 {
-  "main.css": "/reactLessons/todoFirebase/react-redux-firebase/build/static/css/main.3ec7541e.chunk.css",
-  "main.js": "/reactLessons/todoFirebase/react-redux-firebase/build/static/js/main.4469c16d.chunk.js",
-  "main.js.map": "/reactLessons/todoFirebase/react-redux-firebase/build/static/js/main.4469c16d.chunk.js.map",
-  "static/js/1.30936d36.chunk.js": "/reactLessons/todoFirebase/react-redux-firebase/build/static/js/1.30936d36.chunk.js",
-  "static/js/1.30936d36.chunk.js.map": "/reactLessons/todoFirebase/react-redux-firebase/build/static/js/1.30936d36.chunk.js.map",
-  "runtime~main.js": "/reactLessons/todoFirebase/react-redux-firebase/build/static/js/runtime~main.5bb6e79d.js",
-  "runtime~main.js.map": "/reactLessons/todoFirebase/react-redux-firebase/build/static/js/runtime~main.5bb6e79d.js.map",
-  "static/css/main.3ec7541e.chunk.css.map": "/reactLessons/todoFirebase/react-redux-firebase/build/static/css/main.3ec7541e.chunk.css.map",
-  "index.html": "/reactLessons/todoFirebase/react-redux-firebase/build/index.html",
-  "precache-manifest.d7aa34549ec47ac81c63948fd4844f4e.js": "/reactLessons/todoFirebase/react-redux-firebase/build/precache-manifest.d7aa34549ec47ac81c63948fd4844f4e.js",
-  "service-worker.js": "/reactLessons/todoFirebase/react-redux-firebase/build/service-worker.js"
+  "main.css": "/static/css/main.a1f55072.chunk.css",
+  "main.js": "/static/js/main.af7b3790.chunk.js",
+  "main.js.map": "/static/js/main.af7b3790.chunk.js.map",
+  "static/js/1.6dd4a885.chunk.js": "/static/js/1.6dd4a885.chunk.js",
+  "static/js/1.6dd4a885.chunk.js.map": "/static/js/1.6dd4a885.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.a1f55072.chunk.css.map": "/static/css/main.a1f55072.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.091a8129298bb55fe8d66fa4b2773a88.js": "/precache-manifest.091a8129298bb55fe8d66fa4b2773a88.js",
+  "service-worker.js": "/service-worker.js"
 }
