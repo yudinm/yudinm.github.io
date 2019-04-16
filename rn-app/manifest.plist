@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>../WtNativeApp.ipa</string>
+                    <string>https://yudinm.github.io/rn-app/WtNativeApp.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
